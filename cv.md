@@ -3,7 +3,6 @@
 - **Tel.:** +375 29 714-54-74 (A1)
 - **E-mail:** [mihey.by@gmail.com](mailto:mihey.by@gmail.com)
 - **Skype:** mihey.by
-- **Telegram:** [Mikhail Sh](https://t.me/Michael_S3)
 
 ## Summary
 My first goal - to explore the profession of web-developer. 
