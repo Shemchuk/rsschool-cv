@@ -11,11 +11,6 @@
   <body>
     <main>
       <section>
-        <h1>
-          <a href="https://shemchuk.github.io/rsschool-2019Q1-cv/"
-            >rsschool-2019Q1-cv</a
-          >
-        </h1>
         <h2>Mikhail Shemchuk</h2>
         <hr />
         <img src="./assets/images/photo.jpg" alt="photo" />
@@ -33,65 +28,86 @@
         <h2>Summary</h2>
         <hr />
         <p>
-          My first goal - to explore the profession of web-developer. I would
-          like to work in a team of professionals, in a friendly and
-          confidential atmosphere. We will sing 'Kumbaya' and worship cats
-          together. My strength: communicability, calmness, responsibility,
-          management skills. I have like swimming, riding a bike, to play
-          guitar, and other activities. Several years engaged in social dance
-          (Blues, Salsa, Bachata, Lindi-Hop). Not married.
+          My objective is to explore the career possibilities of a
+          web-developer. I would like to work in a friendly team of
+          professionals and enjoyable working environment. We will sing
+          'Kumbaya' and worship cats together. My strengths are strong
+          communication skills, calmness, responsibility, management skills. My
+          hobbies are swimming, riding a bike, playing the guitar, reading and
+          other activities. I have been involved in social dances (Blues, Salsa,
+          Bachata, Lindi-Hop) for several years.
         </p>
 
         <h2>Skills</h2>
         <hr />
         <ul>
-          <li>JS</li>
+          <li>JavaScript</li>
           <li>HTML5 / CSS3</li>
-          <li>SQL</li>
+          <li>Webpack</li>
+          <li>React (learning in process)</li>
           <li>Git</li>
           <li>Figma</li>
           <li>С / C++</li>
           <li>Delphi</li>
           <li>Java</li>
           <li>Tomcat</li>
+          <li>SQL</li>
           <li>SQLite</li>
           <li>VB</li>
           <li>Windows</li>
           <li>Linux</li>
         </ul>
 
-        <h2>Code sample</h2>
+        <h2>Projects</h2>
         <hr />
-        <code>
-          <pre>
-    /**
-    * @param preferences - an array of integers. Indices of people, whom they love
-    * @returns number of love triangles
-    */
-    module.exports = function getLoveTrianglesCount(preferences = []) {
-    let count = 0;
-    
-    preferences = preferences.map( item => item - 1);
-    
-    for (let i = 0; i < preferences.length; i++) {
-        first = preferences[i]; //whom love first lover
-        second = preferences[first];  //whom love second lover
-        third = preferences[second];  //whom love third lover
-    
-        //if 3rd lover love 1st lover in chain - then it's a love triangle
-        if ((i == third) && (first != second) && (second != third)) {
-        preferences[i] = -1;  //exclude this triangle from cheking
-        preferences[first] = -1;
-        preferences[third] = -1;
-        count++;
-        }
-    }
-    
-    return count;
-    };
-            </pre
-          >
-        </code>
+        <ul>
+          <li>
+            <a href="https://rsclone-alias.netlify.app"
+              >RS Clone (Alias game)</a
+            >
+          </li>
+          <li>
+            <a href="https://michael-sh.medium.com/alias-game-clone-35d9c4013a9"
+              >Article about project RS Clone on Medium.com</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://rolling-scopes-school.github.io/shemchuk-JS2020Q3/covid-dashboard/"
+              >Covid dashboard</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://rolling-scopes-school.github.io/shemchuk-JS2020Q3/english-for-kids/"
+              >English for kids</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://rolling-scopes-school.github.io/shemchuk-JS2020Q3/gem-puzzle"
+              >Gem-puzzle</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://rolling-scopes-school.github.io/shemchuk-JS2020Q3/virtual-keyboard"
+              >Virtual keyboard</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://rolling-scopes-school.github.io/shemchuk-JS2020Q3/momentum/"
+              >Momentum</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://rolling-scopes-school.github.io/shemchuk-JS2020Q3/shelter"
+              >Shelter</a
+            >
+          </li>
+        </ul>
 
         <h2>Experience</h2>
         <hr />
@@ -154,16 +170,22 @@
               >https://www.codecademy.com/users/6086549107/achievements</a
             >
           </li>
-          <li>2020 - Individual English lessons</li>
+          <li>2020-2021 - Individual English lessons</li>
+          <li>
+            2020-2021 - The Rolling Scopes School
+            <a href="https://app.rs.school/certificate/m20q9j2n"
+              >"JavaScript/Front-end"</a
+            >
+          </li>
         </ul>
 
         <h2>English level</h2>
         <hr />
         <ul>
-          <li>B2 Upper Intermediate</li>
+          <li>B2</li>
           <li>
-            Watch movies in English, listen audiobooks (my favorite - "Harry
-            Potter"), read books.
+            Able to watch movies in English, listen to audiobooks (My favorite
+            is "Harry Potter"), read paper books.
           </li>
         </ul>
         <br />
